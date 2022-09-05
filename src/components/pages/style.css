@@ -1,0 +1,96 @@
+/* .App {
+    background-color: rgb(254, 229, 193);
+  }
+   */
+
+  *{
+    margin:0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    overflow-x: hidden;
+  }  
+
+  .header{
+    background-color: rgb(255, 206, 146);
+    position: relative;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    top:0;
+    font-size: x-large;
+    padding-left: 20px;
+    box-shadow: 7px 7px 20px 10px rgb(241, 187, 121);
+    color:rgb(74, 74, 74);
+  }
+  
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .para{
+    margin: auto 120px;
+    line-height: 35px;
+    font-size: 25px;
+    /* color: rgb(255, 145, 0); */
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+    font-style: oblique;
+  }
+
+  .flex{
+    font-size: x-large;
+    list-style-type: none;
+    position: absolute;
+    top: 37.5px;
+    left: 60%;
+    z-index: 1;
+    display: flex;
+    margin-top: 0;
+  }
+
+  .flex > li{
+    /* margin: 30px auto; */
+    margin-right: 20px;
+    margin-left: 30px;
+    
+    
+  }
+
+  .flex #one{
+    margin-left: 300px;
+  }
+
+  .p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    padding-top: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    font-size: 100px;
+    overflow: hidden;
+    
+  }
+
+  .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+
+  .link:hover{
+    color:aliceblue
+  }
+
+
+
+  
