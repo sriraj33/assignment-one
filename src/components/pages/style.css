@@ -1,14 +1,10 @@
-/* .App {
-    background-color: rgb(254, 229, 193);
-  }
-   */
 
   *{
     margin:0;
     padding: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     overflow-x: hidden;
+    box-sizing: border-box;
   }  
 
   .header{
@@ -18,7 +14,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     top:0;
     font-size: x-large;
     padding-left: 20px;
@@ -38,7 +33,6 @@
     margin: auto 120px;
     line-height: 35px;
     font-size: 25px;
-    /* color: rgb(255, 145, 0); */
     color: rgb(255, 145, 0);
     font-weight: bold;
     font-style: oblique;
@@ -49,29 +43,23 @@
     list-style-type: none;
     position: absolute;
     top: 37.5px;
-    left: 60%;
+    left: 73%;
     z-index: 1;
     display: flex;
     margin-top: 0;
   }
 
   .flex > li{
-    /* margin: 30px auto; */
     margin-right: 20px;
     margin-left: 30px;
-    
-    
-  }
-
-  .flex #one{
-    margin-left: 300px;
+    font-weight: bold;
   }
 
   .p{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 97vh;
+    height: 89vh;
     padding-top: 30px;
     color: rgb(70, 70, 70);
     font-size: 50px;
@@ -85,6 +73,7 @@
     justify-content: center;
     align-items: center;
     color: red;
+    
   }
 
   .link:hover{
